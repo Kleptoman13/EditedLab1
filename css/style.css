@@ -76,32 +76,29 @@ h1, h2, h3, h4, h5, h6, ol, ul, li, a, p
     padding: 20px 10px;
 }
 
+
+
 .info{
+    width: 70%;
+}
+.info-container{
     display: flex;
-    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
 
-.pokemon-icon{
-    width: 5%;
-    font-size: 20px;
-}
-
-.container-name{
-    display: flex;
-    width: 30%;
-}
 
 .name{
     padding-left: 10px;
     font-weight: 500;
 }
 
-.url{
-    color: #7c7c7c;
-}
 
 .container-btn{
-    width: 10%;
+    display: flex;
+    justify-content: end;
+    width: 30%;
 }
 
 .btn{
